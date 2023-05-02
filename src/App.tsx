@@ -1,26 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { Admin, Resource } from "react-admin";
+import './App.css';
+import { dataProvider } from "./dataProvider";
+import PokemonList from "./Pokemon/PokemonList";
+import PokemonShow from "./Pokemon/PokemonShow";
+import { theme } from "./theme";
+
+// const dataProvider = jsonServerProvider('https://pokeapi.co/api/v2');
+
+const App = () => <Admin theme={theme} dataProvider={dataProvider}>
+  <Resource name="pokemon" list={PokemonList} show={PokemonShow} />
+</Admin>
 
 export default App;
