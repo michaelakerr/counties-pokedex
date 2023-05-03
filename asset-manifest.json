@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/counties-pokedex/static/css/main.1ef3a49a.css",
-    "main.js": "/counties-pokedex/static/js/main.27e3fffd.js",
-    "static/js/787.0ace5b0b.chunk.js": "/counties-pokedex/static/js/787.0ace5b0b.chunk.js",
-    "index.html": "/counties-pokedex/index.html",
-    "main.1ef3a49a.css.map": "/counties-pokedex/static/css/main.1ef3a49a.css.map",
-    "main.27e3fffd.js.map": "/counties-pokedex/static/js/main.27e3fffd.js.map",
-    "787.0ace5b0b.chunk.js.map": "/counties-pokedex/static/js/787.0ace5b0b.chunk.js.map"
+    "main.css": "/pokemon/static/css/main.1ef3a49a.css",
+    "main.js": "/pokemon/static/js/main.5a378653.js",
+    "static/js/787.0ace5b0b.chunk.js": "/pokemon/static/js/787.0ace5b0b.chunk.js",
+    "index.html": "/pokemon/index.html",
+    "main.1ef3a49a.css.map": "/pokemon/static/css/main.1ef3a49a.css.map",
+    "main.5a378653.js.map": "/pokemon/static/js/main.5a378653.js.map",
+    "787.0ace5b0b.chunk.js.map": "/pokemon/static/js/787.0ace5b0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ef3a49a.css",
-    "static/js/main.27e3fffd.js"
+    "static/js/main.5a378653.js"
   ]
 }
