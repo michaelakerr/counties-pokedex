@@ -12,11 +12,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Clone repository from the repo
 2. Project can be run locally using
-   1. `npm run start` or `npm start`.
-   2. `npm run build` creates a build for production
+    1. `npm run start` or `npm start`.
+    2. `npm run build` creates a build for production
 3. To deploy changes to github pages:
-   1. Commit to repository
-   2. `npm run deploy` will cause the predeploy and deploy scripts to run with a default message of "Updates" in the commit message.
+    1. Commit to repository
+    2. `npm run deploy` will cause the predeploy and deploy scripts to run with a default message of "Updates" in the commit message.
+        1. this project is hosted at `https://michaelakerr.github.io/counties-pokedex/pokemon`
 
 ## Atributions
 
