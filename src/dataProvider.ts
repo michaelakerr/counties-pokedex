@@ -9,12 +9,9 @@ const httpClient = fetchUtils.fetchJson;
 export const dataProvider = {
     getList: (resource: any, params: any) => {
         const { page, perPage } = params.pagination;
-        const { field, order } = params.sort;
         const query = {
-            // sort: JSON.stringify([field, order]),
             offset: JSON.stringify((page - 1) * perPage),
             limit: perPage,
-            // filter: JSON.stringify(params.filter),
         };
         const url = `${apiUrl}/${resource}?${stringify(query)}`;
 
