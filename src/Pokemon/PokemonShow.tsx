@@ -38,7 +38,7 @@ const PokemonCardShow = () => {
                 <Grid xs={12} sm={4}>
                     <CardMedia
                         component="img"
-                        image={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${record.order}.png`}
+                        image={record.sprites.front_default}
                     />
                 </Grid>
                 <Grid xs={12} sm={8}>
