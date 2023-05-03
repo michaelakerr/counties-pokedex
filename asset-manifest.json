@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pokemon/static/css/main.1ef3a49a.css",
-    "main.js": "/pokemon/static/js/main.5a378653.js",
-    "static/js/787.0ace5b0b.chunk.js": "/pokemon/static/js/787.0ace5b0b.chunk.js",
-    "index.html": "/pokemon/index.html",
-    "main.1ef3a49a.css.map": "/pokemon/static/css/main.1ef3a49a.css.map",
-    "main.5a378653.js.map": "/pokemon/static/js/main.5a378653.js.map",
-    "787.0ace5b0b.chunk.js.map": "/pokemon/static/js/787.0ace5b0b.chunk.js.map"
+    "main.css": "/counties-pokedex/pokemon/static/css/main.1ef3a49a.css",
+    "main.js": "/counties-pokedex/pokemon/static/js/main.1de9e918.js",
+    "static/js/787.0ace5b0b.chunk.js": "/counties-pokedex/pokemon/static/js/787.0ace5b0b.chunk.js",
+    "index.html": "/counties-pokedex/pokemon/index.html",
+    "main.1ef3a49a.css.map": "/counties-pokedex/pokemon/static/css/main.1ef3a49a.css.map",
+    "main.1de9e918.js.map": "/counties-pokedex/pokemon/static/js/main.1de9e918.js.map",
+    "787.0ace5b0b.chunk.js.map": "/counties-pokedex/pokemon/static/js/787.0ace5b0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ef3a49a.css",
-    "static/js/main.5a378653.js"
+    "static/js/main.1de9e918.js"
   ]
 }
